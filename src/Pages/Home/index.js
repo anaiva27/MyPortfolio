@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState} from "react";
 import {
   ScrollContainer,
   ScrollPage,
@@ -15,6 +15,7 @@ import {
 } from "react-scroll-motion";
 import "./style.css";
 import headerImage from "../../img/headerImage.png";
+import headerImage2 from "../../img/headerImage22.jpg";
 import project1 from "../../img/s1.jpg";
 import project2 from "../../img/s2.jpg";
 import project3 from "../../img/s3.jpg";
@@ -25,34 +26,35 @@ import wp from "../../img/wp3.jpg";
 
 const Home = () => {
   const ZoomInScrollOut = batch(StickyIn(), FadeIn(), ZoomIn());
-  const work = [
-    {
-      name: "Project 1",
-      link: "#",
-      imageSrc: project1,
-    },
-    {
-      name: "Project 2",
-      link: "#",
-      imageSrc: project2,
-    },
-    {
-      name: "Project 3",
-      link: "#",
-      imageSrc: project3,
-    },
-    {
-      name: "Project 3",
-      link: "#",
-      imageSrc: project3,
-    },
-  ];
+  const [ work, setWork] = useState()
+  console.log(work) 
+  //   {
+  //     name: "Project 1",
+  //     link: "#",
+  //     imageSrc: project1,
+  //   },
+  //   {
+  //     name: "Project 2",
+  //     link: "#",
+  //     imageSrc: project2,
+  //   },
+  //   {
+  //     name: "Project 3",
+  //     link: "#",
+  //     imageSrc: project3,
+  //   },
+  //   {
+  //     name: "Project 3",
+  //     link: "#",
+  //     imageSrc: project3,
+  //   },
+  // ];
   return (
     <ScrollContainer>
       <ScrollPage page={0}>
         <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -200))}>
           <div className="img-container">
-            <img src={headerImage} alt="header image" />
+            <img src={headerImage2} alt="header image" />
             <div className="black-background"></div>
           </div>
         </Animator>
@@ -89,15 +91,15 @@ const Home = () => {
           <div className="portfolio-content">
             {work?.map((work, index) => {
               return (
-                <a href={work?.link} target="_blank" key={work?.name}>
+                <a href={work.link} target="_blank" key={work.name}>
                   <div className="portfolio-card">
                     <div className="project-image">
-                      <img src={work?.imageSrc} alt={work?.name} />
+                      <img src={work.imageSrc} alt={work.name} />
                     </div>
                     <div className="portfolio-title">
-                      <h3>{work?.name}</h3>
+                      <h3>{work.name}</h3>
                     </div>
-                    <div className="count">{index}</div>
+                    <div className="count">0{index+1}</div>
                   </div>
                 </a>
               );
