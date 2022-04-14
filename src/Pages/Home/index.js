@@ -26,29 +26,28 @@ import wp from "../../img/wp3.jpg";
 
 const Home = () => {
   const ZoomInScrollOut = batch(StickyIn(), FadeIn(), ZoomIn());
-  const [ work, setWork] = useState()
-  console.log(work) 
-  //   {
-  //     name: "Project 1",
-  //     link: "#",
-  //     imageSrc: project1,
-  //   },
-  //   {
-  //     name: "Project 2",
-  //     link: "#",
-  //     imageSrc: project2,
-  //   },
-  //   {
-  //     name: "Project 3",
-  //     link: "#",
-  //     imageSrc: project3,
-  //   },
-  //   {
-  //     name: "Project 3",
-  //     link: "#",
-  //     imageSrc: project3,
-  //   },
-  // ];
+  const work = [ 
+    {
+      name: "Project 1",
+      link: "#",
+      imageSrc: project1,
+    },
+    {
+      name: "Project 2",
+      link: "#",
+      imageSrc: project2,
+    },
+    {
+      name: "Project 3",
+      link: "#",
+      imageSrc: project3,
+    },
+    {
+      name: "Project 3",
+      link: "#",
+      imageSrc: project3,
+    },
+  ];
   return (
     <ScrollContainer>
       <ScrollPage page={0}>
