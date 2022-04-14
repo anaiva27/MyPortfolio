@@ -152,8 +152,10 @@ object-fit: cover;
 .details {
     position: relative;
     top: -30px;
-    font-size: clamp(14px, 2vw, 20px);
-    font-family: 'Open Sans', sans-serif;
+    font-size: clamp(10px, 2vw, 15px);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    line-height: 1.45rem;
 }
 
 .details h2 {
@@ -161,9 +163,8 @@ object-fit: cover;
 }
 
 .details .bio {
-    max-width: 500px;
-    font-weight: 300;
-    margin-top: 15px;
+    max-width: 600px;
+    margin-top: 17px;
 }
 
 /* section 4 */

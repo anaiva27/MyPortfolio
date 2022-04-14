@@ -28,22 +28,22 @@ const Home = () => {
   const ZoomInScrollOut = batch(StickyIn(), FadeIn(), ZoomIn());
   const work = [ 
     {
-      name: "Project 1",
+      name: "Student Portal",
       link: "#",
       imageSrc: project1,
     },
     {
-      name: "Project 2",
+      name: "Weather Dashboard",
       link: "#",
       imageSrc: project2,
     },
     {
-      name: "Project 3",
+      name: "Wedding Planner",
       link: "#",
       imageSrc: project3,
     },
     {
-      name: "Project 3",
+      name: "Full Stack Online Store",
       link: "#",
       imageSrc: project3,
     },
@@ -127,14 +127,11 @@ const Home = () => {
             <div className="details">
               <h2 className="greetings">Hello,</h2>
               <p className="bio">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste explicabo, id doloremque eligendi enim ex amet, dolor rerum vel nobis dolorum qui? At maiores dignissimos perferendis laborum fuga expedita dolorem?
-              </p>
+              My name is Anastasia Warren. I’m a passionate software developer experienced in front end, back end and database management. I have a Bachelor's degree in Information technologies from a State Technical University and I'm working on getting a certificate in full-stack development from University of San Diego.              </p>
               <p className="bio">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste explicabo, id doloremque eligendi enim ex amet, dolor rerum vel nobis dolorum qui? At maiores dignissimos perferendis laborum fuga expedita dolorem?
-              </p>
+              Proficient in designing, testing and debugging processes, with an ability to effectively manage multiple projects, conducting extensive market and consumer research and optimizing web functionalities that improve data retrieval.              </p>
               <p className="bio">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste explicabo, id doloremque eligendi enim ex amet, dolor rerum vel nobis dolorum qui? At maiores dignissimos perferendis laborum fuga expedita dolorem?
-              </p>
+              Along with my obsession for perfecting code comes my unbeatable positive attitude. I’m passionate about finding the most efficient solutions for my team and my resiliency in problem solving. An engaging personality and excellent soft skills provide the confidence to easily fit in to any team setting and be an independent self starter if needed as well.               </p>
             </div>
             </Animator>
       </ScrollPage>
