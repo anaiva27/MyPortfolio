@@ -1,0 +1,23 @@
+@import url(//db.onlinewebfonts.com/c/2206d6cc490084998d531e8c1b2cbb4a?family=Druk+Wide+Bold);
+
+* {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+font-family: 'Druk Wide Bold', sans-serif;
+background-color: black;
+color: white;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  color: white;
+}
