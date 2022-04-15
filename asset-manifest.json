@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MyPortfolio/static/css/main.e4461078.css",
-    "main.js": "/MyPortfolio/static/js/main.78eb4502.js",
+    "main.css": "/MyPortfolio/static/css/main.37d088c0.css",
+    "main.js": "/MyPortfolio/static/js/main.0fb40a9e.js",
     "static/media/headerImage22.jpg": "/MyPortfolio/static/media/headerImage22.cbb208c15595b0e1dc18.jpg",
     "static/media/headerImage.png": "/MyPortfolio/static/media/headerImage.efb507243855d671db86.png",
     "static/media/s1.jpg": "/MyPortfolio/static/media/s1.3d89b48c860729964c05.jpg",
@@ -11,13 +11,14 @@
     "static/media/black-polygon.png": "/MyPortfolio/static/media/black-polygon.2f01fdd149e3585cfac6.png",
     "static/media/lg-black-polygon.png": "/MyPortfolio/static/media/lg-black-polygon.9aea021aa820656d6bc6.png",
     "static/media/white-polygon.png": "/MyPortfolio/static/media/white-polygon.b61d23eb7ff5c50b6da9.png",
+    "static/media/DrukWideBoldRegular.ttf": "/MyPortfolio/static/media/DrukWideBoldRegular.22a8aa0eb173b9a5cb77.ttf",
     "static/media/wp3.jpg": "/MyPortfolio/static/media/wp3.788d4e6d498ae0b2d266.jpg",
     "index.html": "/MyPortfolio/index.html",
-    "main.e4461078.css.map": "/MyPortfolio/static/css/main.e4461078.css.map",
-    "main.78eb4502.js.map": "/MyPortfolio/static/js/main.78eb4502.js.map"
+    "main.37d088c0.css.map": "/MyPortfolio/static/css/main.37d088c0.css.map",
+    "main.0fb40a9e.js.map": "/MyPortfolio/static/js/main.0fb40a9e.js.map"
   },
   "entrypoints": [
-    "static/css/main.e4461078.css",
-    "static/js/main.78eb4502.js"
+    "static/css/main.37d088c0.css",
+    "static/js/main.0fb40a9e.js"
   ]
 }
