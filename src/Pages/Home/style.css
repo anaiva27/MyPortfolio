@@ -17,7 +17,7 @@
 }
 
 .name h3 {
-    font-size: clamp(20px, 7vw, 65px);
+    font-size: clamp(20px, 8vw, 65px);
     letter-spacing: 4px;
 }
 
@@ -31,7 +31,7 @@
     justify-content: center;
     align-items: center;
     font-family: 'Roboto', sans-serif;
-    margin-top: 190px;
+    margin-top: 160px;
     width: clamp(280px, 25vw, 450px);
 }
 
@@ -44,7 +44,7 @@
 }
 
 .position h2 {
-    font-size: clamp(16px, 1vw, 26px);
+    font-size: clamp(16px, 1vw, 20px);
     letter-spacing: 2px;
 }
 
