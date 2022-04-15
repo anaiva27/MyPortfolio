@@ -19,6 +19,7 @@ import headerImage2 from "../../img/headerImage22.jpg";
 import project1 from "../../img/s1.jpg";
 import project2 from "../../img/s2.jpg";
 import project3 from "../../img/s3.jpg";
+import project4 from "../../img/s4.png";
 import polygonB from "../../img/black-polygon.png";
 import polygonBL from "../../img/lg-black-polygon.png";
 import polygonW from "../../img/white-polygon.png";
@@ -31,24 +32,27 @@ const Home = () => {
   const ZoomInScrollOut = batch(StickyIn(), FadeIn(), ZoomIn());
   const work = [
     {
-      name: "Student Portal",
-      link: "#",
+      name: "Full Stack Student Portal",
+      link: "https://vast-shore-72326.herokuapp.com/",
       imageSrc: project1,
+      github: "https://github.com/larrygamboa/project2"
     },
     {
       name: "Weather Dashboard",
-      link: "#",
+      link: "https://anaiva27.github.io/Weather-Application/",
       imageSrc: project2,
+      github: "https://github.com/anaiva27/Weather-Application"
     },
     {
       name: "Wedding Planner",
-      link: "#",
+      link: "https://mbubel.github.io/projectwedding/",
       imageSrc: project3,
+      github: "https://github.com/mbubel/projectwedding"
     },
     {
       name: "Full Stack Online Store",
       link: "#",
-      imageSrc: project3,
+      imageSrc: project4,
     },
   ];
 
@@ -106,6 +110,7 @@ const Home = () => {
                     </div>
                     <div className="portfolio-title">
                       <h3>{work.name}</h3>
+                      <a href={work.github} target="_blank" key={work.github}>Github repo</a>
                     </div>
                     <div className="count">0{index + 1}</div>
                   </div>
