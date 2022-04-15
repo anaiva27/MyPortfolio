@@ -1,5 +1,12 @@
 @import url(//db.onlinewebfonts.com/c/2206d6cc490084998d531e8c1b2cbb4a?family=Druk+Wide+Bold);
 
+@font-face {
+  font-family: "DrukWideBoldRegular";
+  src: local("DrukWideBoldRegular"),
+   url("./fonts/DrukWideBoldRegular.ttf") format("truetype");
+  font-weight: bold;
+ }
+
 * {
   margin: 0;
   padding:0;
@@ -8,7 +15,7 @@
 }
 
 body {
-font-family: 'Druk Wide Bold', sans-serif;
+font-family: 'DrukWideBoldRegular', sans-serif;
 background-color: black;
 color: white;
 }

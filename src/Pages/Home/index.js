@@ -26,7 +26,8 @@ import polygonW from "../../img/white-polygon.png";
 import wp from "../../img/wp3.jpg";
 import { FiGithub } from "react-icons/fi"
 import { FiMail } from "react-icons/fi"
-import { TiSocialLinkedin } from "react-icons/ti"
+import { TiSocialLinkedin } from "react-icons/ti";
+import '../../fonts/DrukWideBoldRegular.ttf'
 
 const Home = () => {
   const ZoomInScrollOut = batch(StickyIn(), FadeIn(), ZoomIn());
