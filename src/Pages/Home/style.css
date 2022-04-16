@@ -35,7 +35,7 @@
     justify-content: center;
     align-items: center;
     font-family: 'Roboto', sans-serif;
-    margin-top: 160px;
+    margin-top: 180px;
     width: clamp(280px, 25vw, 450px);
 }
 
